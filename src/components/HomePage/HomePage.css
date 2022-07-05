@@ -1,0 +1,76 @@
+.image {
+    position: relative;
+    width: 100%;
+}
+
+.h2 {
+    position: absolute;
+    top: 180px;
+    left: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 850px){
+    .h2{
+        font-size: 15px;
+    }
+
+    .h3{
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .h4 {
+        font-size: 7px;
+    }
+
+    .img1 {
+        width: 60%;
+    }
+    .p1{
+        font-size: 20px;
+    }
+    .img2{
+        width: 60%;
+        height: 300px;
+    }
+    .p2{
+        font-size: 10px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .box {
+        max-width: 600px;
+    }
+    .img2 {
+        max-width: 600px;
+
+    }
+}
+
+@media screen and (max-width: 380px){
+    .box {
+        max-width: 100%;
+    }
+    .img2 {
+        max-width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 200px){
+    .box {
+        max-width: 200px;
+    }
+    .img2 {
+        max-width: 200px;
+
+    }
+}

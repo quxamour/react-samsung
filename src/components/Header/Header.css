@@ -1,0 +1,14 @@
+@media screen and (max-width: 850px){
+    .text{
+        display: block;
+    }
+
+    .logo {
+        width:70px;
+    }
+
+    .icon {
+        max-width: 15px;
+        max-height: 15px;
+    }
+}
